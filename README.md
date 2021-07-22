@@ -1,2 +1,2 @@
 # Phonin/Layout
-A template for Github Pages Layoutssmall.svg
+A template for Github Pages Layouts
