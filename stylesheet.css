@@ -1,8 +1,9 @@
 /* Dark Theme */
 body {
-  background: #000;
+  background: linear-gradient(45deg,#ff00e3,#004cff);
   color: #999;
   transition: all 1s;
+  min-height: calc(100vh - 116px) !important;
 }
 
 /* Links */
