@@ -1,5 +1,5 @@
 /* Theme */
-body {
+html:not([data-darkreader-mode]) > body {
   background: linear-gradient(45deg,#ff00e3,#004cff);
   color: #999;
   transition: all 1s;
@@ -19,7 +19,7 @@ body {
   min-width: 980px;
   transform: translate(-50%,0);
 }
-.wrapper {
+html:not([data-darkreader-mode]) .wrapper {
   width: 100vh;
   margin: 0 auto;
   position: absolute;
@@ -39,13 +39,14 @@ body {
   transform: translate(-50%,-50%);
   z-index: 50;
   text-align: center;
+  font-size: calc(1vw + 2em)
 }
 [data-darkreader-mode] .wrapper::after {
   content: ' ';position:fixed;left:0;top:0;width:100vw;height:100vh;display:block;background:linear-gradient(45deg, rgb(111, 0, 98), rgb(2, 30, 98));
 }
 
 /* Fixes */
-footer {
+html:not([data-darkreader-mode]) footer {
   position:fixed;bottom:0;
 }
 
