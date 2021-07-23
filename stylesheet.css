@@ -28,6 +28,17 @@ body::before {
   z-index: 2;
 }
 
+[data-darkreader-mode] .wrapper::before {
+  position:fixed;
+  left:50vw;
+  top:50vh;
+  transform: translate(-50%,-50%);
+  content: 'Please disable Dark Reader for this page! Thank you! (this page is a dark themed page so dw bout your eyes)';
+}
+.wrapper::after {
+  content: ' ';position:fixed;left:0;top:0;width:100vw;height:100vh;display:block;background:linear-gradient(45deg, rgb(111, 0, 98), rgb(2, 30, 98));
+}
+
 /* Links */
 a:hover,
 a:focus {
