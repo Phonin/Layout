@@ -4,6 +4,7 @@ body {
   color: #999;
   transition: all 1s;
   min-height: calc(100vh - 116px) !important;
+  background-attachment: fixed;
 }
 
 /* background thing */
