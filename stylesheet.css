@@ -32,6 +32,8 @@ body::before {
 }
 [data-darkreader-mode] body::before {
   content: 'Please disable Dark Reader for this page! Thank you! (this page is a dark themed page so dw bout your eyes)';
+  max-width: 75vw;
+  width:auto;
   position:fixed;
   left:50vw;
   top:50vh;
