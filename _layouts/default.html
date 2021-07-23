@@ -12,7 +12,7 @@
     <![endif]-->
     <link rel="stylesheet" href="https://phonin.github.io/Layout/stylesheet.css">
   </head>
-  <body>
+  <body id="phonin_document_root">
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -44,13 +44,13 @@
       {{ content }}
 
       </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a> &mdash; Modified by <a href="https://github.com/0J3">0J3</a></small></p>
-      </footer>
     </div>
+    <footer class="phonin_footer">
+      {% if site.github.is_project_page %}
+      <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+      {% endif %}
+      <p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a> &mdash; Modified by <a href="https://github.com/0J3">0J3</a></small></p>
+    </footer>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
