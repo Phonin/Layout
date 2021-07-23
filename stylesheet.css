@@ -39,6 +39,11 @@ body::before {
   content: ' ';position:fixed;left:0;top:0;width:100vw;height:100vh;display:block;background:linear-gradient(45deg, rgb(111, 0, 98), rgb(2, 30, 98));
 }
 
+/* Fixes */
+footer {
+  position:fixed;bottom:0;
+}
+
 /* Links */
 a:hover,
 a:focus {
