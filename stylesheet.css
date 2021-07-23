@@ -47,7 +47,7 @@ html:not([data-darkreader-mode]) .wrapper {
 
 /* Fixes */
 html:not([data-darkreader-mode]) footer {
-  position:fixed;bottom:10px;left:50vw;transform:translate(-50%,0);
+  position:fixed;bottom:10px;left:50vw;transform:translate(-50%,0);text-align:center;
 }
 
 /* Links */
