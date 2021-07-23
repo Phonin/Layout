@@ -7,7 +7,7 @@ body {
 }
 
 /* background thing */
-.body::after {
+body::after {
   content: ' ';
   position: fixed;
   top: 0;
