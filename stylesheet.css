@@ -41,7 +41,7 @@ html:not([data-darkreader-mode]) .wrapper {
   text-align: center;
   font-size: calc(1vw + 2em)
 }
-[data-darkreader-mode] .wrapper::after {
+[data-darkreader-mode] body::after {
   content: ' ';position:fixed;left:0;top:0;width:100vw;height:100vh;display:block;background:linear-gradient(45deg, rgb(111, 0, 98), rgb(2, 30, 98));
 }
 
