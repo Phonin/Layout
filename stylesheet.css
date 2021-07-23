@@ -27,7 +27,9 @@ body::before {
   transform: translate(-50%,0);
   z-index: 2;
 }
-
+[data-darkreader-mode] .wrapper {
+  filter: blur(10px);
+}
 [data-darkreader-mode] .wrapper::before {
   position:fixed;
   left:50vw;
