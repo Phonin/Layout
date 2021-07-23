@@ -31,11 +31,12 @@ body::before {
   filter: blur(10px);
 }
 [data-darkreader-mode] .wrapper::before {
+  content: 'Please disable Dark Reader for this page! Thank you! (this page is a dark themed page so dw bout your eyes)';
   position:fixed;
   left:50vw;
   top:50vh;
   transform: translate(-50%,-50%);
-  content: 'Please disable Dark Reader for this page! Thank you! (this page is a dark themed page so dw bout your eyes)';
+  z-index: 50;
 }
 [data-darkreader-mode] .wrapper::after {
   content: ' ';position:fixed;left:0;top:0;width:100vw;height:100vh;display:block;background:linear-gradient(45deg, rgb(111, 0, 98), rgb(2, 30, 98));
