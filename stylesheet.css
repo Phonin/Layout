@@ -1,9 +1,27 @@
-/* Dark Theme */
+/* Theme */
 body {
   background: linear-gradient(45deg,#ff00e3,#004cff);
   color: #999;
   transition: all 1s;
   min-height: calc(100vh - 116px) !important;
+}
+
+/* background thing */
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 50vw;
+  background: #2d2d2d7a;
+  height: 100vh;
+  width: 75vw;
+  transform: translate(-50%,0);
+}
+.wrapper {
+    width: 100vh;
+    margin: 0 auto;
+    position: absolute;
+    left: 50vw;
+    transform: translate(-50%,0);
 }
 
 /* Links */
