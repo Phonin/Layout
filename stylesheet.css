@@ -19,11 +19,12 @@ body::before {
   transform: translate(-50%,0);
 }
 .wrapper {
-    width: 100vh;
-    margin: 0 auto;
-    position: absolute;
-    left: 50vw;
-    transform: translate(-50%,0);
+  width: 100vh;
+  margin: 0 auto;
+  position: absolute;
+  left: 50vw;
+  transform: translate(-50%,0);
+  z-index: 2;
 }
 
 /* Links */
