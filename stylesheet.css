@@ -6,6 +6,12 @@ html:not([data-darkreader-mode]) > body {
   min-height: calc(100vh - 116px) !important;
   background-attachment: fixed;
 }
+html[data-fulldark]:not([data-darkreader-mode]) > body,
+html[data-userscript-fulldark]:not([data-darkreader-mode]) > body,
+html[data-amoled]:not([data-darkreader-mode]) > body,
+html[data-userscript-amoled]:not([data-darkreader-mode]) > body {
+  background: #000 !important;
+}
 
 /* background thing */
 html:not([data-darkreader-mode]) > body::before {
