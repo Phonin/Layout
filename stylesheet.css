@@ -8,7 +8,7 @@ html:not([data-darkreader-mode]) > body {
 }
 
 /* background thing */
-:not([data-darkreader-mode]) > body::before {
+html:not([data-darkreader-mode]) > body::before {
   content: ' ';
   position: fixed;
   top: 0;
